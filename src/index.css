@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	button {
+		@apply relative tracking-[1px];
+	}
+	button::after {
+		@apply content-[''] bg-[#000000] h-[1px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300; 
+	}
+	button:hover::after {
+		@apply w-[100%];
+	}
+}

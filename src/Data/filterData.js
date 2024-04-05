@@ -1,0 +1,3 @@
+export const filterList = [{"name": "IDEAL FOR", "options": ["MEN", "WOMEN", "KIDS"],}, {"name": "OCCASION", "options": ["WEDDING", "PARTY", "FUNCTION"],}, {"name": "WORK", "options": ["HAND WORK", "WOMEN", "KIDS"],}, {"name": "FABRIC", "options": ["COTTON", "LATHER", "KIDS"],}, {"name": "SEGMENT", "options": ["MEN", "WOMEN", "KIDS"],}, {"name": "SUITABLE FOR", "options": ["MEN", "WOMEN", "KIDS"],}, {"name": "RAW MATERIALS", "options": ["MEN", "WOMEN", "KIDS"],}, {"name": "PATTERN", "options": ["MEN", "WOMEN", "KIDS"],},]
+
+export const sortOptions = ["recommended", "Newest first", "popular", "Price : high to low", "Price : low to high"]
